@@ -15,7 +15,7 @@ func main() {
 	}
 
 	for day, puzzle := range puzzles {
-		log.Printf("%v: Part one => %v", day, puzzle.PartOne())
-		log.Printf("%v: Part two => %v", day, puzzle.PartTwo())
+		log.Printf("%v.1 => %v", day, puzzle.PartOne())
+		log.Printf("%v.2 => %v", day, puzzle.PartTwo())
 	}
 }
