@@ -35,7 +35,7 @@ func (p *Puzzle) PartTwo() string {
 					boardFlag[b] = true
 					winnerCount++
 				}
-				if winnerCount == len(boards) {
+				if winnerCount == len(boards)-1 {
 					score := scoreBoard(board)
 					return fmt.Sprintf("%v", score*drawnNumber)
 				}
