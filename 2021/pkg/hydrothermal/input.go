@@ -1,6 +1,6 @@
 package hydrothermal
 
-var input = []string{
+var inputs = []string{
 	"976,35 -> 24,987",
 	"552,172 -> 870,490",
 	"647,640 -> 841,834",
