@@ -7,6 +7,7 @@ import (
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/dive"
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/giantsquid"
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/hydrothermal"
+	"github.com/iweller-IQ/advent_of_code/2021/pkg/lanternfish"
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/puzzle"
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/sonarsweep"
 )
@@ -18,6 +19,7 @@ func main() {
 		"Day 3": &binarydiagnostic.Puzzle{},
 		"Day 4": &giantsquid.Puzzle{},
 		"Day 5": &hydrothermal.Puzzle{},
+		"Day 6": &lanternfish.Puzzle{},
 	}
 
 	for day, puzzle := range puzzles {
