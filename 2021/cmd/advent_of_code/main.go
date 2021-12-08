@@ -10,6 +10,7 @@ import (
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/lanternfish"
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/puzzle"
 	"github.com/iweller-IQ/advent_of_code/2021/pkg/sonarsweep"
+	"github.com/iweller-IQ/advent_of_code/2021/pkg/whales"
 )
 
 func main() {
@@ -20,6 +21,7 @@ func main() {
 		"Day 4": &giantsquid.Puzzle{},
 		"Day 5": &hydrothermal.Puzzle{},
 		"Day 6": &lanternfish.Puzzle{},
+		"Day 7": &whales.Puzzle{},
 	}
 
 	for day, puzzle := range puzzles {
